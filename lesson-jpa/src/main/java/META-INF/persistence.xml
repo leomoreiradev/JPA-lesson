@@ -7,6 +7,9 @@
      <!-- ********************** Unidade de persistencia (persistence-unit) **********************  -->
     <persistence-unit name="lesson-jpa">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+         <!--Referenciando a classe  -->
+         <class>modelo.basico.Usuario</class>
+        
         
         
         
