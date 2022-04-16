@@ -8,11 +8,8 @@
     <persistence-unit name="lesson-jpa">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
          <!--Referenciando a classe  -->
-         <class>modelo.basico.Usuario</class>
-        
-        
-        
-        
+
+        <class>modelo.basico.Usuario</class>       
         <properties>
             <!-- ********************** Props sobre conexao **********************  -->
             <!--Driver -->
@@ -25,7 +22,7 @@
             <property name="javax.persistence.jdbc.user" value="root"/>
             
             <!--Password -->
-            <property name="javax.persistence.jdbc.password" value="12345678"/>
+            <property name="javax.persistence.jdbc.password" value="feltex"/>
             
              <!--  ********************** Props sobre hibernate ********************** -->
              <!--Define o dialeto -->
